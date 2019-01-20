@@ -6,7 +6,7 @@ const numToGuess = prompt('Give me a number between 0 to 20')
         alert('le chiffre est supérieur à celui à deviner')
     }
 
-    else if (numToGuess !== 11) {
+    else  {
         alert('Bien joué ! C\'était bien le chiffre 11')
     }
     
